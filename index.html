@@ -7,16 +7,11 @@
   <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-
-  <ul class="skip-links">
-    <li><a href="#main">Jump to main content</a></li>
-    <li><a href="#nav">Jump to navigation</a></li>
-  </ul>
-
   <header role="banner" id="top">
-    <strong>The Pangolin</strong>
 
-    <nav role="navigation" id="nav">
+    <h1 id="navigation">The Pangolin</h1>
+    <img src="images/pangolin.jpg" alt="pangolin">
+    <nav role="navigation">
       <ul>
         <li><a href="#">Pangolin</a></li>
         <li><a href="#">Description</a></li>
@@ -24,13 +19,14 @@
         <li><a href="#">Conservation</a></li>
       </ul>
     </nav>
+
   </header>
 
-  <main role="main" id="main">
-    <article>
-      <h1>Description</h1>
-      <img src="images/pangolin.jpg" alt="pangolin">
-      <p>Some countries where pangolins are found</p>
+  <main role="main">
+
+    <section>
+      <h2 id="main-content">Description</h2>
+      <h3>Some countries where pangolins are found</h3>
       <ul>
         <li>Botswana</li>
         <li>Kenya</li>
@@ -42,21 +38,22 @@
         <li>Zambia</li>
         <li>Zimbabwe</li>
       </ul>
-    </article>
-  </main>
+    </section>
 
-  <aside role="complementary">
-    <section>
+    <article>
       <dl>
         <dt>Behaviour</dt>
         <dd><a href="https://en.wikipedia.org/wiki/Pangolin#Behavior" aria-label="Read more about Pangolin behaviour">Read more</a></dd>
         <dt>Conservation</dt>
         <dd><a href="https://en.wikipedia.org/wiki/Pangolin#Conservation" aria-label="Read more about Pangolin conservation">Read more</a></dd>
       </dl>
-    </section>
-  </aside>
+    </article>
+
+  </main>
+
   <footer role="contentinfo">
     <p>© 1821 Pangolin <a href="#top"></a></p>
   </footer>
+
 </body>
 </html>
